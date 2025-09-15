@@ -10,8 +10,8 @@ import static io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchema;
 
 
 public class Schema_Validation {
-    /*
-     * JSON Schema Validation
+
+    /* JSON Schema Validation
      *
      * Base URI: http://data.fixer.io/api
      * End point: /latest

@@ -5,21 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ae3b4298-0c1f-4025-94e7-fd6cfad987e3" name="Changes" comment="New code">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/getting_started/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/auth/Auth.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/getting_started/Getting_Started.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/headers_and_cookies/Headers_And_Cookies.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/post_put_delete/Post_Put_Delete.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/request_parameters/Request_Parameters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/rest_logging/Rest_Logging.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/scheme_validation/Schema_Validation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/scheme_validation/Schema_Validation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/scheme_validation/Schema_Validation.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,40 +33,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
-    "Maven.RESTAPIAutomationUsing_RESTAssured [clean].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "TestNG.Auth.executor": "Run",
-    "TestNG.C:/Users/Abhilash Sharma/IdeaProjects/REST API Automation Using REST Assured/testng.xml.executor": "Run",
-    "TestNG.Getting_Started.executor": "Run",
-    "TestNG.Headers_And_Cookies.executor": "Run",
-    "TestNG.Post_Put_Delete.executor": "Run",
-    "TestNG.Request_Parameters.executor": "Run",
-    "TestNG.Rest_Logging.executor": "Run",
-    "TestNG.Schema_Validation.executor": "Coverage",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.RESTAPIAutomationUsing_RESTAssured [clean].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;TestNG.Auth.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.C:/Users/Abhilash Sharma/IdeaProjects/REST API Automation Using REST Assured/testng.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Getting_Started.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Headers_And_Cookies.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Post_Put_Delete.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Request_Parameters.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Rest_Logging.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Schema_Validation.executor&quot;: &quot;Coverage&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="TestNG.C:/Users/Abhilash Sharma/IdeaProjects/REST API Automation Using REST Assured/testng.xml">
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="RESTAPIAutomationUsing_RESTAssured" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="RESTAPIAutomationUsing_RESTAssured" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Auth" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RESTAPIAutomationUsing_RESTAssured" />
       <extension name="coverage">
@@ -193,8 +167,27 @@
       <option name="project" value="LOCAL" />
       <updated>1757902880064</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="New code">
+      <option name="closed" value="true" />
+      <created>1757903364771</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1757903364771</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="New code" />

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"><suite name="All Test Suite"><test verbose="2" preserve-order="true" name="C:/Users/Abhilash Sharma/IdeaProjects/REST API Automation Using REST Assured/src/test/java/scheme_validation"><classes><class name="scheme_validation.Schema_Validation"><methods><include name="json_schema_validation"/><include name="xml_dtd_schema_validation"/><include name="xml_xsd_schema_validation"/></methods></class></classes></test></suite>
