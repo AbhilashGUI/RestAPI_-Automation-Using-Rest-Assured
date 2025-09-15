@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ae3b4298-0c1f-4025-94e7-fd6cfad987e3" name="Changes" comment="New code">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/getting_started/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/auth/Auth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/getting_started/Getting_Started.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/headers_and_cookies/Headers_And_Cookies.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/post_put_delete/Post_Put_Delete.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/request_parameters/Request_Parameters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/rest_logging/Rest_Logging.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/scheme_validation/Schema_Validation.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="32gpeeHafm7WOgK51ih9dSKsNRy" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="flattenPackages" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "Maven.RESTAPIAutomationUsing_RESTAssured [clean].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.Auth.executor": "Run",
+    "TestNG.C:/Users/Abhilash Sharma/IdeaProjects/REST API Automation Using REST Assured/testng.xml.executor": "Run",
+    "TestNG.Getting_Started.executor": "Run",
+    "TestNG.Headers_And_Cookies.executor": "Run",
+    "TestNG.Post_Put_Delete.executor": "Run",
+    "TestNG.Request_Parameters.executor": "Run",
+    "TestNG.Rest_Logging.executor": "Run",
+    "TestNG.Schema_Validation.executor": "Coverage",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="RunManager" selected="TestNG.C:/Users/Abhilash Sharma/IdeaProjects/REST API Automation Using REST Assured/testng.xml">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="RESTAPIAutomationUsing_RESTAssured" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="RESTAPIAutomationUsing_RESTAssured" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Auth" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RESTAPIAutomationUsing_RESTAssured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="auth.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="auth" />
+      <option name="MAIN_CLASS_NAME" value="auth.Auth" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/Abhilash Sharma/IdeaProjects/REST API Automation Using REST Assured/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RESTAPIAutomationUsing_RESTAssured" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Headers_And_Cookies" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RESTAPIAutomationUsing_RESTAssured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="headers_and_cookies.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="headers_and_cookies" />
+      <option name="MAIN_CLASS_NAME" value="headers_and_cookies.Headers_And_Cookies" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Request_Parameters" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RESTAPIAutomationUsing_RESTAssured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="request_parameters.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="request_parameters" />
+      <option name="MAIN_CLASS_NAME" value="request_parameters.Request_Parameters" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Schema_Validation" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RESTAPIAutomationUsing_RESTAssured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="scheme_validation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="scheme_validation" />
+      <option name="MAIN_CLASS_NAME" value="scheme_validation.Schema_Validation" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.C:/Users/Abhilash Sharma/IdeaProjects/REST API Automation Using REST Assured/testng.xml" />
+        <item itemvalue="TestNG.Schema_Validation" />
+        <item itemvalue="TestNG.Auth" />
+        <item itemvalue="TestNG.Headers_And_Cookies" />
+        <item itemvalue="TestNG.Request_Parameters" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ae3b4298-0c1f-4025-94e7-fd6cfad987e3" name="Changes" comment="" />
+      <created>1757852166042</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1757852166042</updated>
+    </task>
+    <task id="LOCAL-00001" summary="New code">
+      <option name="closed" value="true" />
+      <created>1757902561802</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1757902561802</updated>
+    </task>
+    <task id="LOCAL-00002" summary="New code">
+      <option name="closed" value="true" />
+      <created>1757902880064</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1757902880064</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="New code" />
+    <option name="LAST_COMMIT_MESSAGE" value="New code" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/getting_started/Getting_Started.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/getting_started/Getting_Started.java</url>
+          <line>12</line>
+          <properties class="getting_started.Getting_Started" method="simple_get_request">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/REST_API_Automation_Using_REST_Assured$Schema_Validation.ic" NAME="Schema_Validation Coverage Results" MODIFIED="1757901633305" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>scheme_validation.*</FILTER>
+    </SUITE>
+  </component>
+</project>
