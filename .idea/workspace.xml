@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ae3b4298-0c1f-4025-94e7-fd6cfad987e3" name="Changes" comment="New code">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/scheme_validation/Schema_Validation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/scheme_validation/Schema_Validation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/getting_started/Getting_Started.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/getting_started/Getting_Started.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,37 +33,44 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.RESTAPIAutomationUsing_RESTAssured [clean].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;TestNG.Auth.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.C:/Users/Abhilash Sharma/IdeaProjects/REST API Automation Using REST Assured/testng.xml.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Getting_Started.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Headers_And_Cookies.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Post_Put_Delete.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Request_Parameters.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Rest_Logging.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Schema_Validation.executor&quot;: &quot;Coverage&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "Maven.RESTAPIAutomationUsing_RESTAssured [clean].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.Auth.executor": "Run",
+    "TestNG.C:/Users/Abhilash Sharma/IdeaProjects/REST API Automation Using REST Assured/testng.xml.executor": "Run",
+    "TestNG.Getting_Started.executor": "Run",
+    "TestNG.Getting_Started.extract_response_data.executor": "Run",
+    "TestNG.Getting_Started.extract_single_value.executor": "Run",
+    "TestNG.Getting_Started.simple_get_request.executor": "Run",
+    "TestNG.Getting_Started.validate_json_response.executor": "Run",
+    "TestNG.Getting_Started.validate_xml_response.executor": "Run",
+    "TestNG.Getting_Started.verify_status_line.executor": "Run",
+    "TestNG.Headers_And_Cookies.executor": "Run",
+    "TestNG.Post_Put_Delete.executor": "Run",
+    "TestNG.Post_Put_Delete.post_request.executor": "Run",
+    "TestNG.Request_Parameters.executor": "Run",
+    "TestNG.Rest_Logging.executor": "Run",
+    "TestNG.Schema_Validation.executor": "Coverage",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
-  <component name="RunManager" selected="TestNG.C:/Users/Abhilash Sharma/IdeaProjects/REST API Automation Using REST Assured/testng.xml">
-    <configuration name="Auth" type="TestNG" temporary="true" nameIsGenerated="true">
+}]]></component>
+  <component name="RunManager" selected="TestNG.Getting_Started">
+    <configuration name="Getting_Started" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RESTAPIAutomationUsing_RESTAssured" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="auth.*" />
+          <option name="PATTERN" value="getting_started.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="auth" />
-      <option name="MAIN_CLASS_NAME" value="auth.Auth" />
+      <option name="PACKAGE_NAME" value="getting_started" />
+      <option name="MAIN_CLASS_NAME" value="getting_started.Getting_Started" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -71,61 +78,72 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C:/Users/Abhilash Sharma/IdeaProjects/REST API Automation Using REST Assured/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Getting_Started.extract_response_data" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RESTAPIAutomationUsing_RESTAssured" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="getting_started.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="getting_started" />
+      <option name="MAIN_CLASS_NAME" value="getting_started.Getting_Started" />
+      <option name="METHOD_NAME" value="extract_response_data" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Headers_And_Cookies" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Getting_Started.extract_single_value" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RESTAPIAutomationUsing_RESTAssured" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="headers_and_cookies.*" />
+          <option name="PATTERN" value="getting_started.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="headers_and_cookies" />
-      <option name="MAIN_CLASS_NAME" value="headers_and_cookies.Headers_And_Cookies" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PACKAGE_NAME" value="getting_started" />
+      <option name="MAIN_CLASS_NAME" value="getting_started.Getting_Started" />
+      <option name="METHOD_NAME" value="extract_single_value" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Request_Parameters" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Getting_Started.validate_xml_response" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RESTAPIAutomationUsing_RESTAssured" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="request_parameters.*" />
+          <option name="PATTERN" value="getting_started.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="request_parameters" />
-      <option name="MAIN_CLASS_NAME" value="request_parameters.Request_Parameters" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PACKAGE_NAME" value="getting_started" />
+      <option name="MAIN_CLASS_NAME" value="getting_started.Getting_Started" />
+      <option name="METHOD_NAME" value="validate_xml_response" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Schema_Validation" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Getting_Started.verify_status_line" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RESTAPIAutomationUsing_RESTAssured" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="scheme_validation.*" />
+          <option name="PATTERN" value="getting_started.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="scheme_validation" />
-      <option name="MAIN_CLASS_NAME" value="scheme_validation.Schema_Validation" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PACKAGE_NAME" value="getting_started" />
+      <option name="MAIN_CLASS_NAME" value="getting_started.Getting_Started" />
+      <option name="METHOD_NAME" value="verify_status_line" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -134,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.C:/Users/Abhilash Sharma/IdeaProjects/REST API Automation Using REST Assured/testng.xml" />
-        <item itemvalue="TestNG.Schema_Validation" />
-        <item itemvalue="TestNG.Auth" />
-        <item itemvalue="TestNG.Headers_And_Cookies" />
-        <item itemvalue="TestNG.Request_Parameters" />
+        <item itemvalue="TestNG.Getting_Started" />
+        <item itemvalue="TestNG.Getting_Started.verify_status_line" />
+        <item itemvalue="TestNG.Getting_Started.extract_single_value" />
+        <item itemvalue="TestNG.Getting_Started.extract_response_data" />
+        <item itemvalue="TestNG.Getting_Started.validate_xml_response" />
       </list>
     </recent_temporary>
   </component>
@@ -175,7 +193,15 @@
       <option name="project" value="LOCAL" />
       <updated>1757903364771</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="New code">
+      <option name="closed" value="true" />
+      <created>1757904839776</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1757904839776</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
