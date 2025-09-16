@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ae3b4298-0c1f-4025-94e7-fd6cfad987e3" name="Changes" comment="New code">
+      <change afterPath="$PROJECT_DIR$/create_employee.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/getting_started/Getting_Started.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/getting_started/Getting_Started.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/post_put_delete/Post_Put_Delete.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/post_put_delete/Post_Put_Delete.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,8 +51,11 @@
     "TestNG.Getting_Started.validate_xml_response.executor": "Run",
     "TestNG.Getting_Started.verify_status_line.executor": "Run",
     "TestNG.Headers_And_Cookies.executor": "Run",
+    "TestNG.Post_Put_Delete.delete_request.executor": "Run",
     "TestNG.Post_Put_Delete.executor": "Run",
     "TestNG.Post_Put_Delete.post_request.executor": "Run",
+    "TestNG.Post_Put_Delete.post_request_using_json_object.executor": "Run",
+    "TestNG.Post_Put_Delete.put_request_using_json_object.executor": "Run",
     "TestNG.Request_Parameters.executor": "Run",
     "TestNG.Rest_Logging.executor": "Run",
     "TestNG.Schema_Validation.executor": "Coverage",
@@ -60,17 +64,17 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.Getting_Started">
-    <configuration name="Getting_Started" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.Post_Put_Delete">
+    <configuration name="Post_Put_Delete" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RESTAPIAutomationUsing_RESTAssured" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="getting_started.*" />
+          <option name="PATTERN" value="post_put_delete.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="getting_started" />
-      <option name="MAIN_CLASS_NAME" value="getting_started.Getting_Started" />
+      <option name="PACKAGE_NAME" value="post_put_delete" />
+      <option name="MAIN_CLASS_NAME" value="post_put_delete.Post_Put_Delete" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -78,17 +82,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Getting_Started.extract_response_data" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Post_Put_Delete.delete_request" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RESTAPIAutomationUsing_RESTAssured" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="getting_started.*" />
+          <option name="PATTERN" value="post_put_delete.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="getting_started" />
-      <option name="MAIN_CLASS_NAME" value="getting_started.Getting_Started" />
-      <option name="METHOD_NAME" value="extract_response_data" />
+      <option name="PACKAGE_NAME" value="post_put_delete" />
+      <option name="MAIN_CLASS_NAME" value="post_put_delete.Post_Put_Delete" />
+      <option name="METHOD_NAME" value="delete_request" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -96,17 +100,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Getting_Started.extract_single_value" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Post_Put_Delete.post_request" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RESTAPIAutomationUsing_RESTAssured" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="getting_started.*" />
+          <option name="PATTERN" value="post_put_delete.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="getting_started" />
-      <option name="MAIN_CLASS_NAME" value="getting_started.Getting_Started" />
-      <option name="METHOD_NAME" value="extract_single_value" />
+      <option name="PACKAGE_NAME" value="post_put_delete" />
+      <option name="MAIN_CLASS_NAME" value="post_put_delete.Post_Put_Delete" />
+      <option name="METHOD_NAME" value="post_request" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -114,17 +118,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Getting_Started.validate_xml_response" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Post_Put_Delete.post_request_using_json_object" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RESTAPIAutomationUsing_RESTAssured" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="getting_started.*" />
+          <option name="PATTERN" value="post_put_delete.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="getting_started" />
-      <option name="MAIN_CLASS_NAME" value="getting_started.Getting_Started" />
-      <option name="METHOD_NAME" value="validate_xml_response" />
+      <option name="PACKAGE_NAME" value="post_put_delete" />
+      <option name="MAIN_CLASS_NAME" value="post_put_delete.Post_Put_Delete" />
+      <option name="METHOD_NAME" value="post_request_using_json_object" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -132,17 +136,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Getting_Started.verify_status_line" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Post_Put_Delete.put_request_using_json_object" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RESTAPIAutomationUsing_RESTAssured" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="getting_started.*" />
+          <option name="PATTERN" value="post_put_delete.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="getting_started" />
-      <option name="MAIN_CLASS_NAME" value="getting_started.Getting_Started" />
-      <option name="METHOD_NAME" value="verify_status_line" />
+      <option name="PACKAGE_NAME" value="post_put_delete" />
+      <option name="MAIN_CLASS_NAME" value="post_put_delete.Post_Put_Delete" />
+      <option name="METHOD_NAME" value="put_request_using_json_object" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -152,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Getting_Started" />
-        <item itemvalue="TestNG.Getting_Started.verify_status_line" />
-        <item itemvalue="TestNG.Getting_Started.extract_single_value" />
-        <item itemvalue="TestNG.Getting_Started.extract_response_data" />
-        <item itemvalue="TestNG.Getting_Started.validate_xml_response" />
+        <item itemvalue="TestNG.Post_Put_Delete" />
+        <item itemvalue="TestNG.Post_Put_Delete.delete_request" />
+        <item itemvalue="TestNG.Post_Put_Delete.put_request_using_json_object" />
+        <item itemvalue="TestNG.Post_Put_Delete.post_request_using_json_object" />
+        <item itemvalue="TestNG.Post_Put_Delete.post_request" />
       </list>
     </recent_temporary>
   </component>
@@ -201,7 +205,15 @@
       <option name="project" value="LOCAL" />
       <updated>1757904839776</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="New code">
+      <option name="closed" value="true" />
+      <created>1757990092301</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1757990092301</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
