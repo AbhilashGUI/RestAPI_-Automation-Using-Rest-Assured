@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ae3b4298-0c1f-4025-94e7-fd6cfad987e3" name="Changes" comment="New code">
-      <change afterPath="$PROJECT_DIR$/create_employee.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/post_put_delete/Post_Put_Delete.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/post_put_delete/Post_Put_Delete.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/rest_logging/Rest_Logging.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/rest_logging/Rest_Logging.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,23 +57,28 @@
     "TestNG.Post_Put_Delete.put_request_using_json_object.executor": "Run",
     "TestNG.Request_Parameters.executor": "Run",
     "TestNG.Rest_Logging.executor": "Run",
+    "TestNG.Rest_Logging.log_all_details.executor": "Run",
+    "TestNG.Rest_Logging.log_body_or_header.executor": "Run",
+    "TestNG.Rest_Logging.log_cookies_or_status.executor": "Run",
+    "TestNG.Rest_Logging.log_if_error.executor": "Run",
+    "TestNG.Rest_Logging.log_if_validation_fails.executor": "Run",
     "TestNG.Schema_Validation.executor": "Coverage",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.Post_Put_Delete">
-    <configuration name="Post_Put_Delete" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.Rest_Logging">
+    <configuration name="Rest_Logging" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RESTAPIAutomationUsing_RESTAssured" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="post_put_delete.*" />
+          <option name="PATTERN" value="rest_logging.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="post_put_delete" />
-      <option name="MAIN_CLASS_NAME" value="post_put_delete.Post_Put_Delete" />
+      <option name="PACKAGE_NAME" value="rest_logging" />
+      <option name="MAIN_CLASS_NAME" value="rest_logging.Rest_Logging" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -82,17 +86,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Post_Put_Delete.delete_request" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Rest_Logging.log_body_or_header" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RESTAPIAutomationUsing_RESTAssured" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="post_put_delete.*" />
+          <option name="PATTERN" value="rest_logging.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="post_put_delete" />
-      <option name="MAIN_CLASS_NAME" value="post_put_delete.Post_Put_Delete" />
-      <option name="METHOD_NAME" value="delete_request" />
+      <option name="PACKAGE_NAME" value="rest_logging" />
+      <option name="MAIN_CLASS_NAME" value="rest_logging.Rest_Logging" />
+      <option name="METHOD_NAME" value="log_body_or_header" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -100,17 +104,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Post_Put_Delete.post_request" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Rest_Logging.log_cookies_or_status" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RESTAPIAutomationUsing_RESTAssured" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="post_put_delete.*" />
+          <option name="PATTERN" value="rest_logging.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="post_put_delete" />
-      <option name="MAIN_CLASS_NAME" value="post_put_delete.Post_Put_Delete" />
-      <option name="METHOD_NAME" value="post_request" />
+      <option name="PACKAGE_NAME" value="rest_logging" />
+      <option name="MAIN_CLASS_NAME" value="rest_logging.Rest_Logging" />
+      <option name="METHOD_NAME" value="log_cookies_or_status" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -118,17 +122,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Post_Put_Delete.post_request_using_json_object" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Rest_Logging.log_if_error" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RESTAPIAutomationUsing_RESTAssured" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="post_put_delete.*" />
+          <option name="PATTERN" value="rest_logging.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="post_put_delete" />
-      <option name="MAIN_CLASS_NAME" value="post_put_delete.Post_Put_Delete" />
-      <option name="METHOD_NAME" value="post_request_using_json_object" />
+      <option name="PACKAGE_NAME" value="rest_logging" />
+      <option name="MAIN_CLASS_NAME" value="rest_logging.Rest_Logging" />
+      <option name="METHOD_NAME" value="log_if_error" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -136,17 +140,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Post_Put_Delete.put_request_using_json_object" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Rest_Logging.log_if_validation_fails" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RESTAPIAutomationUsing_RESTAssured" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="post_put_delete.*" />
+          <option name="PATTERN" value="rest_logging.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="post_put_delete" />
-      <option name="MAIN_CLASS_NAME" value="post_put_delete.Post_Put_Delete" />
-      <option name="METHOD_NAME" value="put_request_using_json_object" />
+      <option name="PACKAGE_NAME" value="rest_logging" />
+      <option name="MAIN_CLASS_NAME" value="rest_logging.Rest_Logging" />
+      <option name="METHOD_NAME" value="log_if_validation_fails" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -156,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Post_Put_Delete" />
-        <item itemvalue="TestNG.Post_Put_Delete.delete_request" />
-        <item itemvalue="TestNG.Post_Put_Delete.put_request_using_json_object" />
-        <item itemvalue="TestNG.Post_Put_Delete.post_request_using_json_object" />
-        <item itemvalue="TestNG.Post_Put_Delete.post_request" />
+        <item itemvalue="TestNG.Rest_Logging" />
+        <item itemvalue="TestNG.Rest_Logging.log_if_validation_fails" />
+        <item itemvalue="TestNG.Rest_Logging.log_if_error" />
+        <item itemvalue="TestNG.Rest_Logging.log_cookies_or_status" />
+        <item itemvalue="TestNG.Rest_Logging.log_body_or_header" />
       </list>
     </recent_temporary>
   </component>
@@ -213,7 +217,15 @@
       <option name="project" value="LOCAL" />
       <updated>1757990092301</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="New code">
+      <option name="closed" value="true" />
+      <created>1757995235432</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1757995235432</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
