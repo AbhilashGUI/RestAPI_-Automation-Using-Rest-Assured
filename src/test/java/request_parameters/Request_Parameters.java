@@ -11,11 +11,11 @@ public class Request_Parameters {
     public void handling_query_parameters() {
 
         given()
-                .baseUri("https://restcountries.eu/rest/v2")
-                .queryParam("fullText", true).
-                when()
-                .get("/name/india").
-                then()
+                .baseUri("https://restcountries.com/v3.1")
+                .queryParam("fullText", true)
+                .when()
+                .get("/name/india")
+                .then()
                 .log().all()
                 .statusCode(200);
 
@@ -25,13 +25,13 @@ public class Request_Parameters {
     public void handling_multiple_parameters() {
 
         HashMap<String,Object> params = new HashMap<String,Object>();
-        params.put("access_key", "e942dccc4d2daa7835395a15118d3c8f");
+        params.put("access_key", "eaaaa33d3571fef962d994f117f202dd");
         params.put("Symbols", "INR");
 
         given()
-                .baseUri("http://data.fixer.io/api")
-                .queryParams(params).
-                when()
+                    .baseUri("http://data.fixer.io/api")
+                .queryParams(params)
+                .when()
                 .get("/latest").
                 then()
                 .log().all()
@@ -42,8 +42,8 @@ public class Request_Parameters {
     @Test
     public void handling_multi_value_parameters() {
         given()
-                .baseUri("https://restcountries.eu/rest/v2")
-                .queryParam("codes", "col;no;ee;in").
+                .baseUri("https://restcountries.com/v3.1")
+                .queryParam("codes", "col,no,ee,in").
                 when()
                 .get("/alpha").
                 then()
@@ -52,13 +52,12 @@ public class Request_Parameters {
 
     }
 
-    //https://restcountries.eu/rest/v2/currency/{currency}
-    //https://restcountries.eu/rest/v2/currency/{currency}/name/{name}
+
 
     @Test
     public void handling_path_parameter() {
         given()
-                .baseUri("https://restcountries.eu/rest/v2")
+                .baseUri("https://restcountries.com/v3.1")
                 .pathParam("currency", "usd").
                 when()
                 .get("/currency/{currency}").
@@ -78,8 +77,8 @@ public class Request_Parameters {
         given()
                 .baseUri("https://postman-echo.com")
                 .contentType("application/x-www-form-urlencoded;charset=UTF-8")
-                .formParam("First Name", "Shravya")
-                .formParam("Last Name", "Deshmukh").
+                .formParam("First Name", "Abhilash")
+                .formParam("Last Name", "Vemula").
                 when()
                 .post("/post").
                 then()

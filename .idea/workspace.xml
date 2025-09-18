@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="ae3b4298-0c1f-4025-94e7-fd6cfad987e3" name="Changes" comment="New code">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/rest_logging/Rest_Logging.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/rest_logging/Rest_Logging.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/headers_and_cookies/Headers_And_Cookies.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/headers_and_cookies/Headers_And_Cookies.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/request_parameters/Request_Parameters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/request_parameters/Request_Parameters.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,12 +51,24 @@
     "TestNG.Getting_Started.validate_xml_response.executor": "Run",
     "TestNG.Getting_Started.verify_status_line.executor": "Run",
     "TestNG.Headers_And_Cookies.executor": "Run",
+    "TestNG.Headers_And_Cookies.extract_response_cookies.executor": "Run",
+    "TestNG.Headers_And_Cookies.extract_response_header.executor": "Run",
+    "TestNG.Headers_And_Cookies.sending_headers_object.executor": "Run",
+    "TestNG.Headers_And_Cookies.sending_request_cookies.executor": "Run",
+    "TestNG.Headers_And_Cookies.sending_request_headers.executor": "Run",
+    "TestNG.Headers_And_Cookies.sending_response_headers.executor": "Run",
+    "TestNG.Headers_And_Cookies.validate_response_header.executor": "Run",
     "TestNG.Post_Put_Delete.delete_request.executor": "Run",
     "TestNG.Post_Put_Delete.executor": "Run",
     "TestNG.Post_Put_Delete.post_request.executor": "Run",
     "TestNG.Post_Put_Delete.post_request_using_json_object.executor": "Run",
     "TestNG.Post_Put_Delete.put_request_using_json_object.executor": "Run",
     "TestNG.Request_Parameters.executor": "Run",
+    "TestNG.Request_Parameters.handling_form_data.executor": "Run",
+    "TestNG.Request_Parameters.handling_multi_value_parameters.executor": "Run",
+    "TestNG.Request_Parameters.handling_multiple_parameters.executor": "Run",
+    "TestNG.Request_Parameters.handling_path_parameter.executor": "Run",
+    "TestNG.Request_Parameters.handling_query_parameters.executor": "Run",
     "TestNG.Rest_Logging.executor": "Run",
     "TestNG.Rest_Logging.log_all_details.executor": "Run",
     "TestNG.Rest_Logging.log_body_or_header.executor": "Run",
@@ -68,35 +81,18 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.Rest_Logging">
-    <configuration name="Rest_Logging" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.Headers_And_Cookies.sending_response_headers">
+    <configuration name="Headers_And_Cookies.extract_response_cookies" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RESTAPIAutomationUsing_RESTAssured" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="rest_logging.*" />
+          <option name="PATTERN" value="headers_and_cookies.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="rest_logging" />
-      <option name="MAIN_CLASS_NAME" value="rest_logging.Rest_Logging" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Rest_Logging.log_body_or_header" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="RESTAPIAutomationUsing_RESTAssured" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="rest_logging.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="rest_logging" />
-      <option name="MAIN_CLASS_NAME" value="rest_logging.Rest_Logging" />
-      <option name="METHOD_NAME" value="log_body_or_header" />
+      <option name="PACKAGE_NAME" value="headers_and_cookies" />
+      <option name="MAIN_CLASS_NAME" value="headers_and_cookies.Headers_And_Cookies" />
+      <option name="METHOD_NAME" value="extract_response_cookies" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -104,17 +100,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Rest_Logging.log_cookies_or_status" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Headers_And_Cookies.extract_response_header" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RESTAPIAutomationUsing_RESTAssured" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="rest_logging.*" />
+          <option name="PATTERN" value="headers_and_cookies.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="rest_logging" />
-      <option name="MAIN_CLASS_NAME" value="rest_logging.Rest_Logging" />
-      <option name="METHOD_NAME" value="log_cookies_or_status" />
+      <option name="PACKAGE_NAME" value="headers_and_cookies" />
+      <option name="MAIN_CLASS_NAME" value="headers_and_cookies.Headers_And_Cookies" />
+      <option name="METHOD_NAME" value="extract_response_header" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -122,17 +118,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Rest_Logging.log_if_error" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Headers_And_Cookies.sending_request_cookies" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RESTAPIAutomationUsing_RESTAssured" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="rest_logging.*" />
+          <option name="PATTERN" value="headers_and_cookies.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="rest_logging" />
-      <option name="MAIN_CLASS_NAME" value="rest_logging.Rest_Logging" />
-      <option name="METHOD_NAME" value="log_if_error" />
+      <option name="PACKAGE_NAME" value="headers_and_cookies" />
+      <option name="MAIN_CLASS_NAME" value="headers_and_cookies.Headers_And_Cookies" />
+      <option name="METHOD_NAME" value="sending_request_cookies" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -140,17 +136,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Rest_Logging.log_if_validation_fails" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Headers_And_Cookies.sending_response_headers" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RESTAPIAutomationUsing_RESTAssured" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="rest_logging.*" />
+          <option name="PATTERN" value="headers_and_cookies.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="rest_logging" />
-      <option name="MAIN_CLASS_NAME" value="rest_logging.Rest_Logging" />
-      <option name="METHOD_NAME" value="log_if_validation_fails" />
+      <option name="PACKAGE_NAME" value="headers_and_cookies" />
+      <option name="MAIN_CLASS_NAME" value="headers_and_cookies.Headers_And_Cookies" />
+      <option name="METHOD_NAME" value="sending_response_headers" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Headers_And_Cookies.validate_response_header" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RESTAPIAutomationUsing_RESTAssured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="headers_and_cookies.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="headers_and_cookies" />
+      <option name="MAIN_CLASS_NAME" value="headers_and_cookies.Headers_And_Cookies" />
+      <option name="METHOD_NAME" value="validate_response_header" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -160,11 +174,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Rest_Logging" />
-        <item itemvalue="TestNG.Rest_Logging.log_if_validation_fails" />
-        <item itemvalue="TestNG.Rest_Logging.log_if_error" />
-        <item itemvalue="TestNG.Rest_Logging.log_cookies_or_status" />
-        <item itemvalue="TestNG.Rest_Logging.log_body_or_header" />
+        <item itemvalue="TestNG.Headers_And_Cookies.sending_response_headers" />
+        <item itemvalue="TestNG.Headers_And_Cookies.extract_response_cookies" />
+        <item itemvalue="TestNG.Headers_And_Cookies.extract_response_header" />
+        <item itemvalue="TestNG.Headers_And_Cookies.validate_response_header" />
+        <item itemvalue="TestNG.Headers_And_Cookies.sending_request_cookies" />
       </list>
     </recent_temporary>
   </component>
@@ -225,7 +239,15 @@
       <option name="project" value="LOCAL" />
       <updated>1757995235432</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="New code">
+      <option name="closed" value="true" />
+      <created>1758073861871</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1758073861871</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

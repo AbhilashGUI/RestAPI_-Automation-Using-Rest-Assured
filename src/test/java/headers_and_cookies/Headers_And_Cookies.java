@@ -27,20 +27,20 @@ public class Headers_And_Cookies {
      *
      * http://data.fixer.io/api/latest
      *
-     * 1. If-None-Match: 03a4545f530000f3491fbca200000001
-     * 2. If-Modified-Since: Tue, 30 Jun 2020 01:01:25 GMT
+     * 1. If-None-Match: ee8d42ca86290f687b5a42ee5b8ecc07
+     * 2. If-Modified-Since: 	Thu, 18 Sep 2025 15:44:05 GMT
      *
      */
 
 
     @Test
-    public void sending_request_headers() {
+    public void sending_response_headers() {
         given()
                 .baseUri("http://data.fixer.io/api")
-                .queryParam("access_key", "b406c5d0bd55d77d592af69a930f4feb")
-                .queryParam("Symbols", "USD")
-                .header("If-None-Match", "03a4545f530000f3491fbca200000001")
-                .header("If-Modified-Since", "Tue, 30 Jun 2020 01:01:25 GMT").
+                .queryParam("access_key", "eaaaa33d3571fef962d994f117f202dd")
+                .queryParam("Symbols", "INR")
+                .header("etag", "ee8d42ca86290f687b5a42ee5b8ecc07")
+                .header("last-modified", "Thu, 18 Sep 2025 15:44:05 GMT").
                 when()
                 .get("/latest").
                 then()
@@ -51,15 +51,15 @@ public class Headers_And_Cookies {
     @Test
     public void sending_headers_object() {
         HashMap<String, Object> headers = new HashMap<String, Object>();
-        headers.put("If-None-Match", "03a4545f530000f3491fbca200000001");
-        headers.put("If-Modified-Since", "Tue, 30 Jun 2020 01:01:25 GMT");
+        headers.put("etag", "ee8d42ca86290f687b5a42ee5b8ecc07");
+        headers.put("last-modified", "Thu, 18 Sep 2025 15:44:05 GMT");
         headers.put("Accept-Encoding", "gzip, deflate, br");
         headers.put("Connection", "keep-alive");
 
         given()
                 .baseUri("http://data.fixer.io/api")
-                .queryParam("access_key", "b406c5d0bd55d77d592af69a930f4feb")
-                .queryParam("Symbols", "USD")
+                .queryParam("access_key", "eaaaa33d3571fef962d994f117f202dd")
+                .queryParam("Symbols", "INR")
                 .headers(headers).
                 when()
                 .get("/latest").
@@ -72,22 +72,22 @@ public class Headers_And_Cookies {
     public void sending_request_cookies() {
         given()
                 .baseUri("http://data.fixer.io/api")
-                .queryParam("access_key", "b406c5d0bd55d77d592af69a930f4feb")
-                .queryParam("Symbols", "USD")
-                .cookie("user","ajhds","egj","qegfh").
+                .queryParam("access_key", "eaaaa33d3571fef962d994f117f202dd")
+                .queryParam("Symbols", "INR")
+                .cookie("user","Test","Test1","Test2").
                 when()
                 .get("/latest").
                 then()
                 .log().all()
                 .statusCode(200);
     }
-
+  //Importance of cookie builder is that we have an additional methods
     @Test
     public void sending_cookies_usinhg_builder() {
         Cookie cookie = new Cookie.Builder("usertype","int").setSecured(true).setComment("test cookie").build();
         given()
                 .baseUri("http://data.fixer.io/api")
-                .queryParam("access_key", "b406c5d0bd55d77d592af69a930f4feb")
+                .queryParam("access_key", "eaaaa33d3571fef962d994f117f202dd")
                 .queryParam("Symbols", "USD")
                 .cookie(cookie).
                 when()
@@ -101,22 +101,22 @@ public class Headers_And_Cookies {
     public void validate_response_header() {
         given()
                 .baseUri("http://data.fixer.io/api")
-                .queryParam("access_key", "b406c5d0bd55d77d592af69a930f4feb")
-                .queryParam("Symbols", "USD").
+                .queryParam("access_key", "eaaaa33d3571fef962d994f117f202dd")
+                .queryParam("Symbols", "INR").
                 when()
                 .get("/latest").
                 then()
                 .log().all()
                 .statusCode(200)
-                .header("Server", "cloudflare");
+        .header("transfer-encoding", "chunked");
     }
 
     @Test
     public void extract_response_header() {
         Headers headers = given()
                 .baseUri("http://data.fixer.io/api")
-                .queryParam("access_key", "b406c5d0bd55d77d592af69a930f4feb")
-                .queryParam("Symbols", "USD").
+                .queryParam("access_key", "eaaaa33d3571fef962d994f117f202dd")
+                .queryParam("Symbols", "INR").
                 when()
                 .get("/latest").
                 then()
@@ -124,8 +124,8 @@ public class Headers_And_Cookies {
                 .statusCode(200)
                 .extract().headers();
 
-        System.out.println(headers.getValue("CF-RAY"));
-        System.out.println(headers.getValue("access-control-allow-methods"));
+        System.out.println(headers.getValue("date"));
+        System.out.println(headers.getValue("content-type"));
         System.out.println(headers.getValue("Transfer-Encoding"));
     }
 
@@ -133,8 +133,8 @@ public class Headers_And_Cookies {
     public void extract_response_cookies() {
         Map<String,String> cookies = given()
                 .baseUri("http://data.fixer.io/api")
-                .queryParam("access_key", "b406c5d0bd55d77d592af69a930f4feb")
-                .queryParam("Symbols", "USD").
+                .queryParam("access_key", "eaaaa33d3571fef962d994f117f202dd")
+                .queryParam("Symbols", "INR").
                 when()
                 .get("/latest").
                 then()
@@ -142,7 +142,7 @@ public class Headers_And_Cookies {
                 .statusCode(200)
                 .extract().cookies();
 
-        System.out.println(cookies.get("__cfduid"));
+        System.out.println(cookies.get("chunked"));
 
     }
 }
