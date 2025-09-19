@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ae3b4298-0c1f-4025-94e7-fd6cfad987e3" name="Changes" comment="New code">
+      <change afterPath="$PROJECT_DIR$/json_schema_1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/MiscOperations/Misc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/scheme_validation/xml_dtd_schema.dtd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/headers_and_cookies/Headers_And_Cookies.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/headers_and_cookies/Headers_And_Cookies.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/request_parameters/Request_Parameters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/request_parameters/Request_Parameters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/scheme_validation/Schema_Validation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/scheme_validation/Schema_Validation.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +44,10 @@
     "Maven.RESTAPIAutomationUsing_RESTAssured [clean].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.Auth.digest_authentication.executor": "Run",
     "TestNG.Auth.executor": "Run",
+    "TestNG.Auth.paypal_test.executor": "Run",
+    "TestNG.Auth.post_A_Tweet.executor": "Run",
     "TestNG.C:/Users/Abhilash Sharma/IdeaProjects/REST API Automation Using REST Assured/testng.xml.executor": "Run",
     "TestNG.Getting_Started.executor": "Run",
     "TestNG.Getting_Started.extract_response_data.executor": "Run",
@@ -58,6 +64,11 @@
     "TestNG.Headers_And_Cookies.sending_request_headers.executor": "Run",
     "TestNG.Headers_And_Cookies.sending_response_headers.executor": "Run",
     "TestNG.Headers_And_Cookies.validate_response_header.executor": "Run",
+    "TestNG.Misc.executor": "Run",
+    "TestNG.Misc.specify_port.executor": "Run",
+    "TestNG.Misc.validate_Xml_Namespace.executor": "Run",
+    "TestNG.Misc.validate_response_time.executor": "Run",
+    "TestNG.Misc.validate_response_using_response_part.executor": "Run",
     "TestNG.Post_Put_Delete.delete_request.executor": "Run",
     "TestNG.Post_Put_Delete.executor": "Run",
     "TestNG.Post_Put_Delete.post_request.executor": "Run",
@@ -75,24 +86,51 @@
     "TestNG.Rest_Logging.log_cookies_or_status.executor": "Run",
     "TestNG.Rest_Logging.log_if_error.executor": "Run",
     "TestNG.Rest_Logging.log_if_validation_fails.executor": "Run",
-    "TestNG.Schema_Validation.executor": "Coverage",
+    "TestNG.Schema_Validation.executor": "Run",
+    "TestNG.Schema_Validation.json_schema_validation.executor": "Run",
+    "TestNG.Schema_Validation.xml_dtd_schema_validation.executor": "Run",
+    "TestNG.Schema_Validation.xml_xsd_schema_validation.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.Headers_And_Cookies.sending_response_headers">
-    <configuration name="Headers_And_Cookies.extract_response_cookies" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Abhilash Sharma\IdeaProjects\REST API Automation Using REST Assured\src\test\java\scheme_validation" />
+      <recent name="C:\Users\Abhilash Sharma\IdeaProjects\REST API Automation Using REST Assured" />
+      <recent name="C:\Users\Abhilash Sharma\IdeaProjects\REST API Automation Using REST Assured\src\test\java\post_put_delete" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.Misc.response_Aware_Matcher_Example">
+    <configuration name="Misc" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RESTAPIAutomationUsing_RESTAssured" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="headers_and_cookies.*" />
+          <option name="PATTERN" value="MiscOperations.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="headers_and_cookies" />
-      <option name="MAIN_CLASS_NAME" value="headers_and_cookies.Headers_And_Cookies" />
-      <option name="METHOD_NAME" value="extract_response_cookies" />
+      <option name="PACKAGE_NAME" value="MiscOperations" />
+      <option name="MAIN_CLASS_NAME" value="MiscOperations.Misc" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Misc.response_Aware_Matcher_Example" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RESTAPIAutomationUsing_RESTAssured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MiscOperations.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="MiscOperations" />
+      <option name="MAIN_CLASS_NAME" value="MiscOperations.Misc" />
+      <option name="METHOD_NAME" value="response_Aware_Matcher_Example" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -100,17 +138,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Headers_And_Cookies.extract_response_header" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Misc.validate_Xml_Namespace" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RESTAPIAutomationUsing_RESTAssured" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="headers_and_cookies.*" />
+          <option name="PATTERN" value="MiscOperations.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="headers_and_cookies" />
-      <option name="MAIN_CLASS_NAME" value="headers_and_cookies.Headers_And_Cookies" />
-      <option name="METHOD_NAME" value="extract_response_header" />
+      <option name="PACKAGE_NAME" value="MiscOperations" />
+      <option name="MAIN_CLASS_NAME" value="MiscOperations.Misc" />
+      <option name="METHOD_NAME" value="validate_Xml_Namespace" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -118,17 +156,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Headers_And_Cookies.sending_request_cookies" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Misc.validate_response_time" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RESTAPIAutomationUsing_RESTAssured" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="headers_and_cookies.*" />
+          <option name="PATTERN" value="MiscOperations.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="headers_and_cookies" />
-      <option name="MAIN_CLASS_NAME" value="headers_and_cookies.Headers_And_Cookies" />
-      <option name="METHOD_NAME" value="sending_request_cookies" />
+      <option name="PACKAGE_NAME" value="MiscOperations" />
+      <option name="MAIN_CLASS_NAME" value="MiscOperations.Misc" />
+      <option name="METHOD_NAME" value="validate_response_time" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -136,35 +174,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Headers_And_Cookies.sending_response_headers" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Misc.validate_response_using_response_part" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RESTAPIAutomationUsing_RESTAssured" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="headers_and_cookies.*" />
+          <option name="PATTERN" value="MiscOperations.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="headers_and_cookies" />
-      <option name="MAIN_CLASS_NAME" value="headers_and_cookies.Headers_And_Cookies" />
-      <option name="METHOD_NAME" value="sending_response_headers" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Headers_And_Cookies.validate_response_header" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="RESTAPIAutomationUsing_RESTAssured" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="headers_and_cookies.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="headers_and_cookies" />
-      <option name="MAIN_CLASS_NAME" value="headers_and_cookies.Headers_And_Cookies" />
-      <option name="METHOD_NAME" value="validate_response_header" />
+      <option name="PACKAGE_NAME" value="MiscOperations" />
+      <option name="MAIN_CLASS_NAME" value="MiscOperations.Misc" />
+      <option name="METHOD_NAME" value="validate_response_using_response_part" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -174,11 +194,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Headers_And_Cookies.sending_response_headers" />
-        <item itemvalue="TestNG.Headers_And_Cookies.extract_response_cookies" />
-        <item itemvalue="TestNG.Headers_And_Cookies.extract_response_header" />
-        <item itemvalue="TestNG.Headers_And_Cookies.validate_response_header" />
-        <item itemvalue="TestNG.Headers_And_Cookies.sending_request_cookies" />
+        <item itemvalue="TestNG.Misc.response_Aware_Matcher_Example" />
+        <item itemvalue="TestNG.Misc.validate_response_using_response_part" />
+        <item itemvalue="TestNG.Misc.validate_Xml_Namespace" />
+        <item itemvalue="TestNG.Misc.validate_response_time" />
+        <item itemvalue="TestNG.Misc" />
       </list>
     </recent_temporary>
   </component>
@@ -247,7 +267,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758073861871</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="New code">
+      <option name="closed" value="true" />
+      <created>1758218471582</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1758218471582</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
